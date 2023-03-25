@@ -4,7 +4,7 @@ pragma solidity >=0.8.0;
 /// ============ Imports ============
 
 import { ERC20 } from "./solmate/src/token/ERC20.sol"; 
-import { MerkleProof } from "./openzeppelin-contracts/utils/cryptography7MerkleProof.sol"; 
+import { MerkleProof } from "./openzeppelin-contracts/utils/cryptography/MerkleProof.sol"; 
 
 
 contract MerkleClaimERC20 is ERC20 {
